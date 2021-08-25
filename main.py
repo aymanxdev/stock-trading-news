@@ -54,6 +54,6 @@ def compare_price(current, previous):
     except ZeroDivisionError:
         return 0
 
-print(compare_price(yesterday_closing_price, before_yesterday_price))
+compare_price(yesterday_closing_price, before_yesterday_price)
 
 
